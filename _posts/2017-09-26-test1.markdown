@@ -1,7 +1,8 @@
 ---
-layout: default
+layout: blogs
 title:  "Welcome to Jekyll!"
 date:   2017-05-19 08:16:53 +0700
+meta: article2
 categories: blogs
 ---
 

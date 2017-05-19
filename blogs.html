@@ -1,14 +1,13 @@
 --- 
-layout: default 
+layout: blogs 
 ---
 
 <h1>Blogs</h1>
 
 <ul>
-    {% for x in site.posts %}
+    {% for blogs in site.posts %}
     <li>
-        <a href="">{{x.title}}</a>
-        <p></p>
+        <a href="{{site.baseurl}}{{blogs.url}}">{{blogs.title}}</a>
     </li>
     {% endfor %}
 </ul>
